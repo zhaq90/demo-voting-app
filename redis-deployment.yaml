@@ -9,7 +9,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      name: redis-deployment
+      name: redis-pod
       app: demo-voting-app
   template:
     metadata:

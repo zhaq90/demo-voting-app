@@ -9,7 +9,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      name: postgres-deployment
+      name: postgres-pod
       app: demo-voting-app
   template:
     metadata:
